@@ -1,0 +1,152 @@
+﻿/* borde app seleccionada */
+.header-app ul li.active {
+	border-bottom: 3px solid #35aa47 !important;
+}
+
+/* titulo app */
+.h7 {
+	color: #35aa47;
+}
+
+.theme {
+	color: white;
+	text-shadow: none;
+	background-color: #35aa47;
+}
+
+/* botones */
+.btn.theme {
+	color: white;
+	text-shadow: none;
+	background-color: #35aa47;
+}
+
+.btn.theme:hover, 
+.btn.theme:focus, 
+.btn.theme:active, 
+.btn.theme.active,
+.btn.theme.disabled, 
+.btn.theme[disabled]{ 
+	background-color: #1d943b !important;
+	color: #fff !important;
+	outline: none !important;
+}
+
+.btn.encuesta:hover, 
+.btn.encuesta:focus, 
+.btn.encuesta:active, 
+.btn.encuesta.active,
+.btn.encuesta.disabled, 
+.btn.encuesta[disabled]{ 
+	background-color: #35aa47 !important;
+	color: #fff !important;
+	outline: none !important;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+/* menu lateral */
+ul.page-sidebar-menu > li.active > a,
+ul.page-sidebar-menu > li.active > a:hover {
+	background: #35aa47 !important;
+	color: #fff !important;
+}
+
+/* wizard steps */
+
+/* activo */
+.wizardtabs a {
+	cursor: default;
+}
+
+.wizardtabs ul li.active a {
+	color: #35aa47;
+	background: #f1f6fc;
+}
+
+.wizardtabs ul li.active .chevron:before {
+	border-left: 14px solid #f1f6fc;
+}
+
+.wizardtabs .badge-info {
+	background-color: #35aa47;
+}
+
+/* complete */
+.wizardtabs ul li.complete a {
+	color: #4d90fe;
+}
+
+.wizardtabs .badge-success {
+	background-color: #4d90fe;
+}
+
+.wizardtabs .badge {
+	margin-bottom: 3px;
+}
+
+.login .footer .footer-inner{
+    background-color: #35aa47 ;
+}
+
+ footer  {
+    background-color: #35aa47 !important ;
+}
+
+.login .content h3{
+    color: #35aa47;
+}
+
+/*Esto va por Reset Password*/
+#cphW_lblTitulo{
+    color: #35aa47 !important;
+}
+
+.login .content-activacion .msg-estandar{
+    color: #35aa47;
+}
+
+/*.theme.tooltip-help 
+{
+    padding:7px;
+    background-color:transparent;
+    color: #35aa47;
+    text-decoration: none;
+}*/
+
+.modal-title
+{
+    background-color:transparent;
+    color: #35aa47;
+    font-weight: bold !important;
+}
+
+.divEscalabilidad{
+ background-color: #35aa47 ;
+}
+
+.divHeaderGracias {
+    color: #35aa47;
+}
+
+.lblThemePortada
+{
+    color: #35aa47;
+}
+
+.position .lleno {
+    background-color: #35aa47;
+}  
+.tt-cursor {
+    background-color: #35aa47;
+}
+.tt-suggestion:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #35aa47;
+}
+
+.tt-suggestion.tt-cursor {
+  color: #fff;
+  background-color: #35aa47;
+}

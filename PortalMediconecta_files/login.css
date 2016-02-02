@@ -1,0 +1,368 @@
+/***
+Login page
+***/
+
+/* logo page */
+.login {
+	background-color: #fff !important;
+}
+
+.login .logo {
+	margin: 0 auto;
+	/*margin-top: 20px;*/
+	padding: 15px;
+	text-align: center;
+	width: 100%;
+}
+
+.login .logo-activacion {
+	margin: auto;    
+    padding-top:30px;
+}
+
+.login .logo .principal {
+	padding-right: 10px;
+}
+
+.login .logo .secundario {
+	border-left: 1px solid #666666;
+	padding-left: 10px;
+}
+
+.login .logo-activacion .secundario {
+	border-left: 1px solid #666666;
+    padding-left: 10px;
+}
+
+.login .content {
+	width: 360px;
+	margin: 0 auto;
+	margin-top: 15px;
+	padding: 30px;
+	border: 1px solid #bcbbbb;
+    padding-top: 10px;
+}
+
+.login .content2 {
+	width: 360px;
+	margin: 0 auto;
+}
+
+
+.login .contentError {
+	width: 600px;
+	margin: 0 auto;
+	margin-bottom: 0px;
+	padding: 30px;
+	padding-top: 40px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+.login .content-terminos {
+	background-color: #ddd;
+	width: 650px;
+	margin: 0 auto;
+	margin-bottom: 0px;
+	padding: 30px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	height: 500px;
+}
+
+.login .content-activacion {
+    margin: auto;
+	padding: 30px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	/*height: 175px;*/
+	margin-top: 30px;
+	text-align: center;
+}
+
+.login .content-activacion .form-actions-activacion {
+	background-color: #ddd;
+	clear: both;
+	border: 0px;
+	border-top: 1px solid #eee;
+	padding: 25px 30px 15px 30px;
+	margin-left: -30px;
+	margin-right: -30px;
+	font-size: 14px;
+
+}
+
+.login .content-activacion .msg-estandar{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 38px;
+}
+
+.slimScrollDiv 
+{
+	height: 380px !important;
+}
+
+#div-terminos
+{
+	height: 380px !important;
+}
+
+.login .content h3 {
+	/*color: #02a7dc;*/
+	text-align: center;
+	font-weight: bold !important;
+}
+.login .content h4 {
+	color: #555;
+}
+
+.login .content p {
+	color: #02a7dc;
+	margin-bottom: 0px;
+}
+
+.login .content .login-form, .login .content .forget-form {
+	padding: 0px;
+	margin: 0px;
+}
+
+.form-group .input-icon {
+	border-left: 2px solid #35aa47;
+}
+
+.login .content .input-icon .form-control {
+	border-left: 0;
+}
+
+.login .content .forget-form {
+	display: none;
+}
+
+.login .content .register-form {
+	display: none;
+}
+
+.login .content .form-title {
+	font-weight: 300;
+	margin-bottom: 25px;
+}
+
+.login .content .form-actions {
+    background-color: #FFF;
+    clear: both;
+    border: 0;
+    padding: 0 0 20px 0;
+}
+.login .content-terminos #div-terminos {
+	height: 300px;
+}
+
+.login .content-terminos .form-actions-terminos {
+	background-color: #ddd;
+	clear: both;
+	border: 0px;
+	border-top: 1px solid #eee;
+	padding: 25px 30px 15px 30px;
+	margin-left: -30px;
+	margin-right: -30px;
+}
+
+.login .content .form-actions .checkbox {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.login .content .forget-form .form-actions {
+	border: 0;
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+
+.login .content .register-form .form-actions {
+	border: 0;
+	margin-bottom: 0;
+	padding-bottom: 0px;
+}
+
+.login .content .form-actions .checkbox {
+	margin-top: 8px;
+	display: inline-block;
+}
+
+.login .content .form-actions .btn {
+	margin-top: 1px;
+	width: 100%
+}
+
+.login .content .forget-password {
+	margin-top: 25px;
+}
+
+.login .content .create-account {
+	border-top: 1px dotted #eee;
+	padding-top: 10px;
+	margin-top: 15px;
+}
+
+.login .content .create-account a {
+	display: inline-block;
+	margin-top: 5px;
+}
+
+/* select2 dropdowns */
+.form-group .select2-container {
+	border-left: 2px solid #35aa47 !important;
+}
+
+.login .content .select2-container .select2-choice {
+	border-left: none !important;
+}
+
+.login .content .select2-container i {
+	display: inline-block;
+	position: relative;
+	color: #ccc;
+	z-index: 1;
+	top: 1px;
+	margin: 4px 4px 0px 3px;
+	width: 16px;
+	height: 16px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.login .content .has-error .select2-container i {
+	color: #b94a48;
+}
+
+.login .content .select2-container a span {
+	font-size: 13px;
+}
+
+.login .content .select2-container a span img {
+	margin-left: 4px;
+}
+
+/* footer copyright */
+.login .copyright {
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+	color: #999;
+	font-size: 10px;
+}
+
+.login .form-group .question {
+	text-align: right;
+	color: #02a7dc;
+	font-size: 11px;
+	padding-bottom: 2px;
+}
+
+.login .form-group .has-error {
+	font-size: 11px;
+}
+
+.login .footer .footer-inner {
+	background-color:  #02a7dc;
+	font-size: 11px;
+	color: White;
+	width:100%;
+	height: 30px;
+    text-align: center;
+    line-height:2.5em;
+}
+.Linkterminos 
+{ 
+    color:white !important;  
+}
+
+.login .login-form .registro .label{
+    font-size: 12px;
+}
+
+.login .menu-inf
+{
+    margin: 0 auto; 
+    float: none; 
+    max-width: 380px;    
+    margin-top: 25px; 
+    font-size: 14px;
+    text-align: center;
+}
+
+.login .menu-inf .lnk1{
+    text-align: right; 
+    border-right: 1px solid #666666;
+    display:inline-block;
+}
+
+.login .menu-inf .lnk2{
+    text-align: left; 
+    vertical-align: middle; 
+    display:inline-block;
+}
+
+.login .container-ppal{
+    bottom: 0; left: 0; top: 0; right: 0;
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    height: 600px;
+}
+
+.container-ppal-movil {
+    position: relative !important;
+}
+
+.login .container-ppal-activacion{
+    bottom: 0; left: 0; top: 0; right: 0;
+    margin: auto;
+    position: absolute;
+    height: 600px;    
+}
+
+/*
+.form-horizontal .control-label {
+    text-align: left;
+    padding-left: 37px;
+}
+*/
+.titulo-control {
+    color: #58585b;
+}
+
+@media (max-width: 480px) {
+	/***
+	  Login page
+	  ***/
+	.login .logo {
+		margin-top: 10px;
+	}
+
+	.login .content {
+		padding: 20px;
+		width: 280px;
+	}
+
+	.login .content-terminos {
+		padding1: 20px;
+		width: 280px;
+	}
+
+	.login .content-terminos .form-actions-terminos {
+		height: 100px;
+		padding: inherit;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.login .content h3 {
+		font-size: 22px;
+	}
+
+	.login .checkbox {
+		font-size: 13px;
+	}
+}
